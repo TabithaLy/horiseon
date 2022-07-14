@@ -121,7 +121,7 @@ aside {
 }
 
 consolidate classes that behave the same way as optimization-management-marketing
-*/
+*//*
 .optimization-management-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -129,10 +129,32 @@ consolidate classes that behave the same way as optimization-management-marketin
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}*/
+nav {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
+nav img {
+    max-height: 200px;
+}
+
+nav h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/*
 .optimization-management-marketing img {
     max-height: 200px;
 }
+
+.optimization-management-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}*/
 /*
 #search-engine-optimization img {
     max-height: 200px;
@@ -145,7 +167,7 @@ consolidate classes that behave the same way as optimization-management-marketin
 #social-media-marketing img {
     max-height: 200px;
 }
-*/
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -160,7 +182,7 @@ consolidate classes that behave the same way as optimization-management-marketin
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*change footer class to footer semantic element*/
+change footer class to footer semantic element*/
 footer {
     padding: 30px;
     clear: both;
