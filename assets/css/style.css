@@ -23,8 +23,8 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-
-header div {
+/*change div to section semantic element*/
+header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +32,11 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header section ul {
     list-style-type: none;
 }
 
-header div ul li {
+header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -68,8 +68,8 @@ p {
     float: right;
     margin-left: 25px;
 }
-/*change div to section semantic element*/
-section {
+/*change div to main semantic element*/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
@@ -106,7 +106,6 @@ consolidate classes and IDs that behave the same way
 (search-engine-optimization, online-reputation-management, 
 social-media-marketing) under nav semantic element to clean up code
 */
-
 nav {
     margin-bottom: 20px;
     padding: 50px;
