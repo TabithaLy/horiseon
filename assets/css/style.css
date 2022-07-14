@@ -68,13 +68,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*change div to section semantic element*/
 section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*change div to aside semantic element*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +86,22 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,7 +120,9 @@ aside {
     color: #ffffff;
 }
 
-.social-media-marketing {
+consolidate classes that behave the same way as optimization-management-marketing
+*/
+.optimization-management-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -160,19 +130,22 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
+.optimization-management-marketing img {
+    max-height: 200px;
+}
+/*
+#search-engine-optimization img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+#online-reputation-management img {
     max-height: 200px;
 }
 
-.social-media-marketing img {
+#social-media-marketing img {
     max-height: 200px;
 }
-
+*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,14 +160,14 @@ aside {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*change footer class to footer semantic element*/
 footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
-footer h2 {
+/*change h2 to h4 so it's in order*/
+footer h4 {
     font-size: 20px;
 }
