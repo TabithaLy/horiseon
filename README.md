@@ -1,4 +1,4 @@
-# <Horiseon Landing Page>
+## Horiseon Landing Page
 
 ## Description
 
